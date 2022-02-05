@@ -1,0 +1,50 @@
+[
+    {
+        "url": "/img/slider/slider-img-1.jpg",
+        "caption": "If you can't find them here, they haven't made them yet",
+        "alt": "Retail shoot at the Nike store, Mall of The Netherlands for Wulverhorst Construction (Woerden)",
+        "imageAuthor": "Craig Lovelidge",
+        "authorUnsplash": "@craigology",
+        "id": 1
+    },
+    {
+        "url": "/img/slider/slider-img-2.jpg",
+        "caption": "Come on down and try them on",
+        "alt": "Retail shoot at the Nike store, Mall of The Netherlands for Wulverhorst Construction (Woerden)",
+        "imageAuthor": "Craig Lovelidge",
+        "authorUnsplash": "@craigology",
+        "id": 2
+    },
+    {
+        "url": "/img/slider/slider-img-3.jpg",
+        "caption": "Wide range of high-end premium sneakers",
+        "alt": "Retail shoot at the Nike store, Mall of The Netherlands for Wulverhorst Construction (Woerden)",
+        "imageAuthor": "Craig Lovelidge",
+        "authorUnsplash": "@craigology",
+        "id": 3
+    },
+    {
+        "url": "/img/slider/slider-img-4.jpg",
+        "caption": "If you're more of a retro person, we got you covered too",
+        "alt": "Black-and-white checked Vans sneakers",
+        "imageAuthor": "Arturo Rey",
+        "authorUnsplash": "@arturorey",
+        "id": 4
+    },
+    {
+        "url": "/img/slider/slider-img-5.jpg",
+        "caption": "Any color, any size, any brand",
+        "alt": "High museum of Art. Atlanta, Georgia",
+        "imageAuthor": "Alex Haney",
+        "authorUnsplash": "@alexhaney",
+        "id": 5
+    },
+    {
+        "url": "/img/slider/slider-img-6.jpg",
+        "caption": "Because you deserve the best",
+        "alt": "Father and son in brand new Nike sneakers",
+        "imageAuthor": "Ganda Lukman",
+        "authorUnsplash": "@gandalukman",
+        "id": 6
+    }
+]

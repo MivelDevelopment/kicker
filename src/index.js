@@ -1,17 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import { BrowserRouter } from 'react-router-dom';
+
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import { GlobalStyles } from './global-styles';
+import { CartContextProvider } from './context/cartContext';
+import { PopupModalProvider } from './context/popupModalContext';
+import { BuyerInfoProvider } from './context/buyerInfoContext';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+ReactDOM.render(<>
+    <GlobalStyles />
+    <BrowserRouter>
+        <CartContextProvider>
+            <PopupModalProvider>
+                <BuyerInfoProvider>
+                    <App />
+                </BuyerInfoProvider>
+            </PopupModalProvider>
+        </CartContextProvider>
+    </BrowserRouter>
+</>,
+    document.getElementById('root'))
