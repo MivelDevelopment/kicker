@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useLayoutEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import products from '../data/products.json'
 import { Product } from '../components'
@@ -9,16 +9,12 @@ export const ProductContainer = () => {
     const [searchParams, setSearchParams] = useSearchParams({ category: 'all' })
     const [selectedCategory, setSelectedCategory] = useState('all')
     const [loadMore, setLoadMore] = useState(false);
-    const [isLoading, setIsLoading] = useState(true);
-    const [products, setProducts] = useState([]);
 
     const handleSelect = e => {
         if (e.target.textContent.toLowerCase() === selectedCategory) return
         setSearchParams({ category: e.target.textContent.toLowerCase() })
         setLoadMore(false)
     }
-
-
 
     useEffect(() => {
         setSelectedCategory(searchParams.get('category'));
