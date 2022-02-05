@@ -1,5 +1,5 @@
 import React from 'react';
-import { 
+import {
     Container,
     Icon,
     Message
@@ -9,8 +9,8 @@ const WarningPopup = ({ children, displayed, ...restProps }) => {
     return <Container displayed={displayed} {...restProps}>{children}</Container>
 }
 
-WarningPopup.Icon = ({ src="/img/warning-icon.png", ...restProps }) => {
-    return <Icon src={src} alt="" {...restProps}/>
+WarningPopup.Icon = ({ src = "/icons/warning-icon.png", ...restProps }) => {
+    return <Icon src={src} alt="" {...restProps} />
 }
 
 WarningPopup.Message = ({ children, ...restProps }) => {

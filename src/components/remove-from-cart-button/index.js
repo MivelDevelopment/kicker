@@ -5,7 +5,7 @@ const RemoveFromCart = ({ ...restProps }) => {
     const [isTrashIconHovered, setisTrashIconHovered] = useState(false);
 
     return <TrashIcon
-        src={`/img/trash-${isTrashIconHovered ? 'outline' : 'fill'}.png`}
+        src={`/icons/trash-${isTrashIconHovered ? 'outline' : 'fill'}.png`}
         {...restProps}
         onMouseEnter={() => setisTrashIconHovered(true)}
         onMouseLeave={() => setisTrashIconHovered(false)}

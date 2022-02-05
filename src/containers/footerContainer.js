@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Footer } from '../components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faDiscord, faTiktok, faFacebookSquare } from '@fortawesome/free-brands-svg-icons';
@@ -13,7 +14,7 @@ export const FooterContainer = () => {
             <Footer.InnerContainer>
                 <Footer.Column className="logo-column">
                     <Footer.Title>Get a kick start with</Footer.Title>
-                    <Footer.Logo src="img/logo.png" />
+                    <Link to="/"><Footer.Logo src="img/logo.png" /></Link>
                 </Footer.Column>
                 <Footer.Column>
                     <Footer.Title>100% customer satisfaction</Footer.Title>

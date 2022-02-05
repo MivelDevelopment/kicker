@@ -20,7 +20,7 @@ export const MinicartContainer = () => {
                             onMouseEnter={displayTooltip}
                             onMouseLeave={hideTooltip}
                         >
-                            <Minicart.CartIcon src="/img/shopping-cart.png" />
+                            <Minicart.CartIcon src="/icons/shopping-cart.png" />
                             <Minicart.CartCount>{cart.length}</Minicart.CartCount>
                             {!isMinicartHovered || cart.length < 1 ? '' : (
                                 <Minicart.ItemsContainer isDisplayed={isMinicartHovered}>
