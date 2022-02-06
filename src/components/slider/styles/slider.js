@@ -9,10 +9,14 @@ export const Container = styled.section`
 
 export const ImageHolder = styled.div`
     width: 100%;
-    max-height: 900px;
+    max-height: 80vh;
     overflow: hidden;
     height: auto;
     position: relative;
+
+    @media (min-width: 768px) {
+        max-height: 900px;
+    }
 `
 
 export const Image = styled.img`
