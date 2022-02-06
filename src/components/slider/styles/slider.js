@@ -9,7 +9,7 @@ export const Container = styled.section`
 
 export const ImageHolder = styled.div`
     width: 100%;
-    max-height: 80vh;
+    max-height: 60vh;
     overflow: hidden;
     height: auto;
     position: relative;
