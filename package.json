@@ -1,6 +1,6 @@
 {
-  "name": "elements",
-  "version": "0.1.0",
+  "name": "Kicker",
+  "version": "1.1.0",
   "private": true,
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
