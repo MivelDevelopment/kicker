@@ -15,10 +15,15 @@ export const Container = styled.div`
 
 export const HalfColumns = styled.div`
     width: 100%;
+    box-sizing: border-box;
+    padding: 0 15px;
+    
     order: ${({ order }) => order === 1 && 3};
 
     @media (min-width: 768px) {
         width: 50%;
+        padding: 0;
+
         order: ${({ order }) => order};
     }
 `;
